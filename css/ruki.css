@@ -1,0 +1,26 @@
+.testipic {
+    height:210px;
+    width:300px;
+    margin-top: 15px;
+}
+
+#testi1 {
+    margin: 20px;
+    align-self: auto
+}
+
+#testi2 {
+    margin: 20px;   
+}
+
+.homesidebar {
+    margin-top: 12px;
+    border-color: black;
+    height:425px;
+}
+
+.side_content h1 {
+    font-size: 20px;
+}
+
+
