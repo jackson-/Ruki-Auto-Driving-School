@@ -14,8 +14,8 @@
 
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
-    <link href="css/pricing_table.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/pricing_table.css" rel="stylesheet">
     <link href="css/ruki.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -29,7 +29,7 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -39,13 +39,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="http://placehold.it/150x50&text=Logo" alt="">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="img/bcard2.jpg" class="img-responsive" alt="driving school logo">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav nav-tabs navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
                     <li>
                         <a href="about.html">About</a>
                     </li>
@@ -61,169 +64,57 @@
     </nav>
     <!-- /Navigation -->
     <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">About
-                </h1>
-            </div>
-        </div>
-        <!-- /.row -->
+    <div class="container cont-custom">
 
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="img/store.jpg" id="about-image" alt="storefront">
             </div>
             <div class="col-md-6">
                 <h2>About Ruki Auto Driving School</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+                <p>Our mission statement is to strive towards positively improving drivers’ behavior in our communities, one person at a time.</p>
+                <p>We are one of the foremost driving schools serving most of The Bronx and parts of Westchester County, providing excellent driver training that’s second to none!</p>
             </div>
         </div>
         <!-- /.row -->
-
-        <!-- Team Members -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Team</h2>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+        <div id="about_content" class="col-md-8 cont-custom">
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">5 Reasons to Join Ruki Auto Driving School Now!</div> 
+                    <ul id="car-list">
+                        <li>Do you have a driver’s license already but feel rusty and in need of refreshing your driving skills? We can help.</li>
+                        <li>Have you attempted the road test in the past and for some reason it’s not working out? We can help.</li>
+                        <li>Did you just get your learner’s permit and looking for the most suitable driving school to get started with your driving lessons? Look no further, as our team of dedicated, and patient driving instructors are only too happy to assist you every step of the way.</li>
+                        <li>Do you feel “oh it’s too late to try going for my driving license, I should have gone for it many years ago!”  Well, our team of patient, professionally trained NYS DMV-certified instructors will be more than happy to help you get started towards getting your license, no matter your age.</li>
+                        <li>Have you tried other schools and were not satisfied? Well, a good number of our students had tried other schools before, and they tell us they wish they had not gone elsewhere before. 
+        So, what are you waiting for? Give us a call now, and you will be glad you did!
+        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        </div>
+        <div class="col-md-4 cont-custom">
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">In order to serve you better, our services now include free pick-up at the following train stops:</div>
+              <!-- List group -->
+              <ul class="list-group">
+                <li class="list-group-item">Metro North Train on 233rd Street</li>
+                <li class="list-group-item">Metro North Train on Wakefield</li>
+                <li class="list-group-item">#2Train at Wakefield</li>
+                <li class="list-group-item">#4Train at Mosholu Pkwy</li>
+                <li class="list-group-item">#5Train at Baychester Avenue</li>
+                <li class="list-group-item">D-Train at 206/Bainbridge</li>
+                <li class="list-group-item">Co-op City</li>
+              </ul>
             </div>
         </div>
-        <!-- /.row -->
-
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    
-    
-    
+    </div>    
+    <br>
+    <br>
+    <br>
+        
+        
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
