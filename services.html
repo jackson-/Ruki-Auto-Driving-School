@@ -10,11 +10,9 @@
     <title>Ruki Auto Driving School</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    
-    <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/pricing_table.css" rel="stylesheet">
     <link href="css/ruki.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -28,8 +26,12 @@
 
 </head>
 <body>
+   <div class="top-logo">
+        <img class="image-responsive" src="img/logo4devin4.png">
+   </div>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-custom" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -39,22 +41,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="index.html">
-                    <img class="img-responsive" src="img/bcard2.jpg" alt="logo">
-                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav nav-tabs navbar-right nav-custom">
+                <ul class="nav nav-pills navbar-right nav-custom">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html">HOME</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html">ABOUT</a>
                     </li>
-                    <li> <a href="services.html">Services & Pricing</a></li>
+                    <li class="active"> <a href="services.html">SERVICES & PRICING</a></li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -63,8 +62,7 @@
         <!-- /.container -->
     </nav>
 
-        <!-- /.container -->
-    </nav>
+
             <div class="container cont-custom">
 				<div class="section-headlines text-center">
 					<h2>Bundle Plans</h2>
@@ -73,8 +71,8 @@
 
 				<div class="row-fluid">
 					<div class="pricing-table row-fluid text-center">
-						<div class="span4">
-							<div class="plan">
+						<div class="col-md-4">
+							<div class="plan plan1">
 								<div class="plan-name">
 									<h2>Basic</h2>
 									<p class="muted">Perfect for small budget</p>
@@ -90,14 +88,11 @@
 										<b>Schedule Road Test</b>
 									</div>
 								</div>
-								<div class="plan-action">
-									<a href="contact.html" class="btn btn-block btn-large">Choose Plan</a>
-								</div>
 							</div>
 						</div>
 
-						<div class="span4">
-							<div class="plan prefered">
+						<div class="col-md-4">
+							<div class="plan plan2 prefered">
 								<div class="plan-name">
 									<h2>Standard</h2>
 									<p class="muted">Perfect for medium budget</p>
@@ -113,14 +108,11 @@
 										<b>Schedule Road Test</b>
 									</div>
 								</div>
-								<div class="plan-action">
-									<a href="contact.html" class="btn btn-success btn-block btn-large">Choose Plan</a>
-								</div>
 							</div>
 						</div>
 
-						<div class="span4">
-							<div class="plan">
+						<div class="col-md-4">
+							<div class="plan plan3">
 								<div class="plan-name">
 									<h2>Advanced</h2>
 									<p class="muted">Perfect for large budget</p>
@@ -136,16 +128,16 @@
 										<b>Schedule Road Test</b>
 									</div>
 								</div>
-								<div class="plan-action">
-									<a href="contact.html" class="btn btn-block btn-large">Choose Plan</a>
-								</div>
 							</div>
 						</div>
 					</div>
-					<p class="muted text-center">Note: Payments are non-refundable and plans are permanent once you make your order. ALL ABOVE PACKAGES ARE PAYABLE IN FULL OR IN 2/3 INSTALLMENTS.</p>
+                    <br><br><br>
+
+					<p class="text-center">Note: Payments are non-refundable and plans are permanent once you make your order. ALL ABOVE PACKAGES ARE PAYABLE IN FULL OR IN 2/3 INSTALLMENTS.</p>
 				</div>
 			 </div>
         <!-- Service Tabs -->
+<div class="fluid-container" id="single-classes">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -180,15 +172,18 @@
                     </div>
                     <div class="tab-pane fade" id="service-four">
                         <h4>Classes</h4>
-                        <p>5 Hour Mandatory Pre-Licensing Class....$30.00</p>
+                        <p>5 Hour Mandatory Pre-Licensing Class....$30.00.....(Wednesdays at 5:30pm & Sundays at 8:30am)</p>
                     </div>
                 </div>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
+</div>
+
 <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 

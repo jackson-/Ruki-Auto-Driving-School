@@ -1,3 +1,80 @@
+video#bgvid {
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height:1250px;
+    background-size:cover;
+    z-index: -1000;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 50;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+    background-color: #00FF00;
+}
+
+.banner {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    left: 130px;
+}
+
+#main-body {
+    background-color: #E6B800;
+
+}
+#contact-body{
+    background-color: #E6B800;
+
+}
+
+#single-classes {
+    background-color: #E6B800;
+
+
+}
+#about_p {
+    background-color: #E6B800;
+    font-family: "Broadway" bold;
+    font-size: 20pt;
+    border: 5px solid;
+    border-color: #00FF00;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+#about_content .panel {
+    background-color: #E6B800;
+    border: 5px solid;
+    border-color: #00FF00;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+#about_content .panel ul li{
+    color: black;
+}
+
+.flags{
+    position: relative;
+    z-index: -1000;
+    top: -300px;
+}
+
+.top-logo {
+    position: static;
+    width: 100%;
+    min-height: 10em;
+    top:0;
+    margin-top:40px;
+}
+
 .testipic {
     height:210px;
     width:300px;
@@ -7,11 +84,20 @@
 
 #testi1 {
     margin: 20px;
-    align-self: auto
+    font-weight: bolder;
+}
+.main_p {
+    font-weight: bolder;
+
+}
+
+.well {
+    font-weight: bolder;
 }
 
 #testi2 {
-    margin: 20px;   
+    margin: 20px;
+    font-weight: bolder;   
 }
 
 .homesidebar {
@@ -39,31 +125,31 @@
     margin-top: 0px;
     
 }
-
 .logo img {
     width:150px;
     height:60px;
 }
 
+
 .navbar-custom{
     background-color: #FFF;
-    border-color: #00FF00;
     border-bottom-color:#00FF00; 
     border-left-color:white;
     border-right-color:white;
-    border-top-color:gold;
+    border-top-color:#d4af37;
     border-width: thick;
     margin-bottom: 50px;
     margin-top: none;
 }
 .nav-custom a{
     color:black;
+    font-weight: bolder;
     
     
 }
 .btn-cstm {
     background-color: #00FF00;
-    border-color: gold;
+    border-color: #E6B800;
     color: white;
 }
 
@@ -86,4 +172,89 @@
     max-width:100%;
     max-height:100%;
     
+}
+
+#logo-index img{
+    position: static;
+    width: 100%;
+    margin-top:-100px;
+    top:0;
+}
+
+#logo-contact img{
+    position: static;
+    width: 100%;
+    margin-top:-50px;
+    top:-50;
+}
+#logo-about {
+    top:-50;
+}
+
+#logo-about img{
+    position: relative;
+    width: 100%;
+    margin-top:-100px;
+    top:0;
+}
+
+.panel-default > .panel-heading {
+    /*background-color: #E6B800;*/
+}
+
+.pricing-table .plan {
+
+width: 100%;
+padding: 20px;
+border-top: 5px solid #d4af37;
+border-bottom: 5px solid #ccc;
+margin: 20px;
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d4af37), to(#ccc));
+background-image: -webkit-linear-gradient(#d4af37, #ccc);
+background-image: -moz-linear-gradient(#d4af37, #ccc),
+-moz-linear-gradient(#d4af37, #ccc);
+background-image: -o-linear-gradient(#d4af37, #ccc),
+-o-linear-gradient(#d4af37, #ccc);
+background-image: linear-gradient(#d4af37, #ccc),
+linear-gradient(#d4af37, #ccc);
+-moz-background-size:5px 100%;
+background-size:5px 100%;
+background-position:0 0, 100% 0;
+background-repeat:no-repeat;
+}
+
+#car-list li {
+    color:#00FF00;
+    font-size: 12pt;
+
+}
+.list-group {
+    color:#00FF00;
+
+}
+
+#pickup_stops .panel{
+    background-color: #E6B800;
+    border: 5px solid;
+    border-color: #00FF00;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+#pickup_stops .panel ul li{
+    color:black;
+    background-color: #E6B800;
+}
+
+#myTab {
+    font-size: 20pt;
+}
+
+ul#myTab a{
+    color: black;
+}
+
+#myTabContent {
+    font-size: 13pt;
+
 }
