@@ -15,7 +15,7 @@ video#bgvid {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus{
-    background-color: #00FF00;
+    background-color: #E6B800;
 }
 
 .banner {
@@ -26,33 +26,33 @@ video#bgvid {
 }
 
 #main-body {
-    background-color: #E6B800;
+    background-color: #00FF00;
 
 }
 #contact-body{
-    background-color: #E6B800;
+    background-color: #00FF00;
 
 }
 
 #single-classes {
-    background-color: #E6B800;
+    background-color: #00FF00;
 
 
 }
 #about_p {
-    background-color: #E6B800;
+    background-color: #00FF00;
     font-family: "Broadway" bold;
     font-size: 20pt;
     border: 5px solid;
-    border-color: #00FF00;
+    border-color: #E6B800;
     border-width: thick;
     border-radius: 10px;
 }
 
 #about_content .panel {
-    background-color: #E6B800;
+    background-color: #00FF00;
     border: 5px solid;
-    border-color: #00FF00;
+    border-color: #E6B800;
     border-width: thick;
     border-radius: 10px;
 }
@@ -133,7 +133,7 @@ video#bgvid {
 
 .navbar-custom{
     background-color: #FFF;
-    border-bottom-color:#00FF00; 
+    border-bottom-color:#E6B800; 
     border-left-color:white;
     border-right-color:white;
     border-top-color:#d4af37;
@@ -148,9 +148,9 @@ video#bgvid {
     
 }
 .btn-cstm {
-    background-color: #00FF00;
-    border-color: #E6B800;
-    color: white;
+    background-color: #E6B800;
+    border-color: #00FF00;
+    color: black;
 }
 
 .top-logo img{
@@ -199,7 +199,7 @@ video#bgvid {
 }
 
 .panel-default > .panel-heading {
-    /*background-color: #E6B800;*/
+    /*background-color: #E6B800~~;*/
 }
 
 .pricing-table .plan {
@@ -224,26 +224,26 @@ background-repeat:no-repeat;
 }
 
 #car-list li {
-    color:#00FF00;
+    color:#E6B800;
     font-size: 12pt;
 
 }
 .list-group {
-    color:#00FF00;
+    color:#E6B800;
 
 }
 
 #pickup_stops .panel{
-    background-color: #E6B800;
+    background-color: #00FF00;
     border: 5px solid;
-    border-color: #00FF00;
+    border-color: #E6B800;
     border-width: thick;
     border-radius: 10px;
 }
 
 #pickup_stops .panel ul li{
     color:black;
-    background-color: #E6B800;
+    background-color: #00FF00;
 }
 
 #myTab {
